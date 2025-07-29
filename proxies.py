@@ -1,5 +1,4 @@
 import requests, re
-from bs4 import BeautifulSoup
 ptype = "socks.txt" #socks.txt for socks, proxy.txt for http
 regex = r"([0-9]+(?:\.[0-9]+){3}:[0-9]+).*\+"
 regex_cleaner = r"[0-9]+(?:\.[0-9]+){3}:[0-9]+"
